@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    Fade in animation-->
+<alpha
+    android:fromAlpha="0.0"
+    android:toAlpha="1.0"
+    android:duration="2000"></alpha>
+
+<!--    moving animation-->
+<translate
+        android:fromXDelta="-400dp"
+        android:toYDelta="0dp"
+        android:duration="1500"></translate>
+</set>
