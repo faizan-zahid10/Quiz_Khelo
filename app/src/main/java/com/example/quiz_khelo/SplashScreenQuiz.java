@@ -30,20 +30,20 @@ public class SplashScreenQuiz extends AppCompatActivity {
         init();
 
 //        Splash screen show up for 4 seconds and redirect to MainActivity then
-        new Handler().postDelayed(()->{
-        Intent i=new Intent(SplashScreenQuiz.this,MainActivity.class);
-        startActivity(i);
-        finish();
+        new Handler().postDelayed(() -> {
+            Intent i = new Intent(SplashScreenQuiz.this, MainActivity.class);
+            startActivity(i);
+            finish();
 
-        },4000);
+        }, 4000);
 
 //        Applying animation on the logo
-        Animation logo_fade_in= AnimationUtils.loadAnimation(SplashScreenQuiz.this,R.anim.logo_fade_in);
+        Animation logo_fade_in = AnimationUtils.loadAnimation(SplashScreenQuiz.this, R.anim.logo_fade_in);
         ivlogo.startAnimation(logo_fade_in);
     }
 
-    private void init(){
+    private void init() {
 //        connection with backend
-        ivlogo=findViewById(R.id.ivlogo);
+        ivlogo = findViewById(R.id.ivlogo);
     }
 }

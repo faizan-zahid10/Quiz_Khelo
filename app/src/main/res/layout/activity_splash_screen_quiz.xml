@@ -5,19 +5,18 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".SplashScreenQuiz"
+    android:background="@drawable/bg_app"
     android:gravity="center"
-    android:background="@drawable/bg_app"> <!-- setting the background-->
+    android:orientation="vertical"
+    tools:context=".SplashScreenQuiz"> <!-- setting the background-->
 
-<!--app logo comes here-->
+    <!--app logo comes here-->
     <ImageView
         android:id="@+id/ivlogo"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="@dimen/logo_width"
+        android:layout_height="@dimen/logo_height"
         android:layout_gravity="center"
-        android:src="@drawable/app_main_logo"
         android:background="@drawable/rounded_bg"
         android:clipToOutline="true"
-        ></ImageView>
+        android:src="@drawable/app_main_logo"></ImageView>
 </LinearLayout>
