@@ -3,4 +3,14 @@
     <string name="start_btn">Start</string>
     <string name="name_placeholder">Faizan Zahid</string>
     <string name="name_label">Enter your name</string>
+    <string name="previous_btn_text">Previous</string>
+    <string name="next_btn_text">Next</string>
+    <string name="finish_btn_text">Finish</string>
+    <string name="option_1">Option 1</string>
+    <string name="option_2">Option 2</string>
+    <string name="option_3">Option 3</string>
+    <string name="option_4">Option 4</string>
+    <string name="mcq_question_text">Sample Question</string>
+    <string name="scoreboard_text">Scoreboard</string>
+    <string name="share_score_btn_text">Share your Score</string>
 </resources>
